@@ -1,5 +1,5 @@
 .DS_Store
-.rpt_cache/
+.rpt2_cache/
 node_modules/
 src/
 test/

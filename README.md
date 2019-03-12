@@ -13,7 +13,7 @@ npm i --save expression
 ### 在代码中引入
 
 ```javascript
-import Expression from 'expression'
+import Expression from '@idan-loo/expression'
 
 // 随机获得一个表达式
 const expr = Expression.make()
