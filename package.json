@@ -1,0 +1,32 @@
+{
+  "name": "expression",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "npm run build && node dist",
+    "test": "mocha --recursive -r ts-node/register test/index.ts test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdanLoo/expression.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Idan Loo &lt;im@siwei.lu&gt;",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "rollup": "^1.6.0",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript2": "^0.19.3",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  }
+}
