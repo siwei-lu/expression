@@ -1,8 +1,9 @@
 {
-  "name": "@idan-loo/aexpression",
+  "name": "@idan-loo/expression",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/",
   "scripts": {
     "build": "rollup -c",
     "start": "npm run build && node dist",
